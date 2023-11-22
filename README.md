@@ -10,6 +10,11 @@ First, open a terminal and make sure that the directory you are in is the folder
 
 The argument `-t containerized_shiny:1.0.0` specifies the name and tag to use for the built container image, and you can specify it as you wish. The only requirement is that a container image with this name does not already exist on your local computer, as this will cause an error, and that the name follows the [Open Container Initiative (OCI) naming convention](https://github.com/containers/image/blob/main/docker/reference/regexp.go). The build process will look as shown below if you have built this image before. Otherwise, there will be some more steps in which the various components need to be downloaded to the local compute resource.
 
+<video src="/assets/testvid.mov"></video> 
+<video src="/assets/testvid.mp4"></video> 
+<video src="/assets/testvid.webm"></video> 
+
+
 ![Alt Text](/assets/testvid.mp4)
 
 <video autoplay loop muted playsinline>
@@ -17,9 +22,6 @@ The argument `-t containerized_shiny:1.0.0` specifies the name and tag to use fo
   <source src="/assets/testvid.mp4" type="video/mp4">
 </video>
 
-
-<video src="/assets/testvid.mov"></video> 
-<video src="/assets/testvid.mp4"></video> 
 
 
 [!(renamed webm)](/assets/testvid.mov)
