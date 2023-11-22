@@ -18,3 +18,5 @@ Once the image building process is complete, you will have the container image a
 ```docker images```
 
 The next step is to add metadata to the container image, making it easier to find and manage. This also pushes the container image to a central storage location, making the app available for other users. You do this by heading to the Container Metadata page, as shown below:
+
+[add_metadata_for_shiny_image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/b662c591-c429-41a1-b7ee-707ed4c8cfef)
