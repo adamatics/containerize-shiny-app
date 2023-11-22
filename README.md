@@ -22,7 +22,9 @@ The next step is to add metadata to the container image, making it easier to fin
 [add_metadata_for_shiny_image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/b662c591-c429-41a1-b7ee-707ed4c8cfef)
 
 ## Deploy
-Once the metadata publishing process is complete, an action to deploy the container image as an app will be available in the triple dot menu. 
+Once the metadata publishing process is complete, an action to deploy the container image as an app will be available in the triple dot menu. The status indicator square at the top of the logs window will turn green when the publishing process has finished. You can then click the "Deploy app" action and fill out the fields in the dialog box. The next step is to click the "Deploy App" button in the dialog box, which will start the deployment process and take you to the App Deployment overview page. The app will be available on the URL you specified immediately or after a short wait. As before, there are live logs available that allow you to follow the deployment process. Click the triple dot menu in the App Deployment page to view these logs. The process is shown below:
+
+[deploy_shiny_app.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/2508d66b-8d7d-4830-a532-4838df1e2bf7)
 
 
 # References
