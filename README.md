@@ -11,12 +11,12 @@ First, open a terminal and make sure that the directory you are in is the folder
 The argument `-t containerized_shiny:1.0.0` specifies the name and tag to use for the built container image, and you can specify it as you wish. The only requirement is that a container image with this name does not already exist on your local computer, as this will cause an error, and that the name follows the [Open Container Initiative (OCI) naming convention](https://github.com/containers/image/blob/main/docker/reference/regexp.go). The build process will look as shown below if you have built this image before. Otherwise, there will be some more steps in which the various components need to be downloaded to the local compute resource.
 
 
-[!(renamed webm)](graphics/Screencast from 2023-11-22 08-34-58.mp4)
+[!(renamed webm)](graphics/testvid.mp4)
 
-<video><source src='graphics/Screencast from 2023-11-22 08-34-58.mp4'></video> 
+<video><source src='graphics/testvid.mp4'></video> 
 
-<a href="graphics/Screencast from 2023-11-22 08-34-58.webm" target="_blank">
-    <img class="no-shadow" src="graphics/Screencast from 2023-11-22 08-34-58.webm"  style="margin: 0px 5px 50px 0px; center;" width="1000px"/>
+<a href="graphics/testvid.webm" target="_blank">
+    <img class="no-shadow" src="graphics/testvid.webm"  style="margin: 0px 5px 50px 0px; center;" width="1000px"/>
 </a>
 
 ## Add metadata
