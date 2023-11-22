@@ -10,35 +10,6 @@ First, open a terminal and make sure that the directory you are in is the folder
 
 The argument `-t containerized_shiny:1.0.0` specifies the name and tag to use for the built container image, and you can specify it as you wish. The only requirement is that a container image with this name does not already exist on your local computer, as this will cause an error, and that the name follows the [Open Container Initiative (OCI) naming convention](https://github.com/containers/image/blob/main/docker/reference/regexp.go). The build process will look as shown below if you have built this image before. Otherwise, there will be some more steps in which the various components need to be downloaded to the local compute resource.
 
-![]("assets/testvid.mp4")
-
-
-<figure class="video_container">
-  <iframe src="assets/testvid.mp4" frameborder="0" allowfullscreen="true"> 
-</iframe>
-</figure>
-
-
-<video id="myBGvid" autoplay muted loop>
-<source src="https://github.com/adamatics/containerize-shiny-app/blob/main/assets/testvid.mp4" type="video/mp4">
-</video>
-
-
-
-[new test](https://github.com/adamatics/containerize-shiny-app/assets/149479200/testvid.webm)
-
-
-[other test](assets/149479200/93066292-9fe4-4bd5-906d-705578913aed)
-
-[testvid.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/93066292-9fe4-4bd5-906d-705578913aed)
-
-
-https://github.com/adamatics/containerize-shiny-app/assets/149479200/a04bc79b-6e9c-43bd-9452-6b2c064447fe
-
-
-
-https://github.com/adamatics/containerize-shiny-app/assets/149479200/09212db2-ad54-4fe7-92d1-9f18e2f41182
-
 
 
 ## Add metadata
