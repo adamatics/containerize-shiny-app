@@ -10,33 +10,33 @@ First, open a terminal and make sure that the directory you are in is the folder
 
 The argument `-t containerized_shiny:1.0.0` specifies the name and tag to use for the built container image, and you can specify it as you wish. The only requirement is that a container image with this name does not already exist on your local computer, as this will cause an error, and that the name follows the [Open Container Initiative (OCI) naming convention](https://github.com/containers/image/blob/main/docker/reference/regexp.go). The build process will look as shown below if you have built this image before. Otherwise, there will be some more steps in which the various components need to be downloaded to the local compute resource.
 
-![Alt Text](/assets/graphics/testvid.mp4)
+![Alt Text](/assets/testvid.mp4)
 
 <video autoplay loop muted playsinline>
-  <source src="graphics/testvid.webm" type="video/webm">
-  <source src="graphics/testvid.mp4" type="video/mp4">
+  <source src="/assets/testvid.webm" type="video/webm">
+  <source src="/assets/testvid.mp4" type="video/mp4">
 </video>
 
 
-<video src='graphics/testvid.mov' width=180/></video> 
+<video src='/assets/testvid.mov' width=180/></video> 
 
 
-[!(renamed webm)](graphics/testvid.mov)
+[!(renamed webm)](/assets/testvid.mov)
 
-<video><source src='graphics/testvid.mov'></video> 
+<video><source src='/assets/testvid.mov'></video> 
 
-<a href="graphics/testvid.mov" target="_blank">
-    <img class="no-shadow" src="graphics/testvid.mov"  style="margin: 0px 5px 50px 0px; center;" width="1000px"/>
+<a href="/assets/testvid.mov" target="_blank">
+    <img class="no-shadow" src="/assets/testvid.mov"  style="margin: 0px 5px 50px 0px; center;" width="1000px"/>
 </a>
 
 
 
-[!(renamed webm)](graphics/testvid.mp4)
+[!(renamed webm)](/assets/testvid.mp4)
 
-<video><source src='graphics/testvid.mp4'></video> 
+<video><source src='/assets/testvid.mp4'></video> 
 
-<a href="graphics/testvid.mp4" target="_blank">
-    <img class="no-shadow" src="graphics/testvid.mp4"  style="margin: 0px 5px 50px 0px; center;" width="1000px"/>
+<a href="/assets/testvid.mp4" target="_blank">
+    <img class="no-shadow" src="/assets/testvid.mp4"  style="margin: 0px 5px 50px 0px; center;" width="1000px"/>
 </a>
 
 ## Add metadata
