@@ -18,7 +18,8 @@ The argument `-t containerized_shiny:1.0.0` specifies the name and tag to use fo
 </video>
 
 
-<video src='/assets/testvid.mov' width=180/></video> 
+<video src="/assets/testvid.mov"></video> 
+<video src="/assets/testvid.mp4"></video> 
 
 
 [!(renamed webm)](/assets/testvid.mov)
