@@ -21,20 +21,12 @@ Once the image building process is complete, you will have the container image a
 
 The next step is to add metadata to the container image, making it easier to find and manage. This also pushes the container image to a central storage location, making the app available for other users. You do this by heading to the Container Metadata page, as shown below:
 
-[add-metadata-to-container-image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/8b2a1d57-e8f2-4745-abc1-0d50bbadb69d)
-
-
 [add_metadata_for_shiny_image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/f7134519-4ef9-4075-922a-3eb7969e12ad)
 
 ## Deploy
 Once the metadata publishing process is complete, an action to deploy the container image as an app will be available in the triple dot menu. The status indicator square at the top of the logs window will turn green when the publishing process has finished. You can then click the "Deploy app" action and fill out the fields in the dialog box. The next step is to click the "Deploy App" button in the dialog box, which will start the deployment process and take you to the App Deployment overview page. The app will be available on the URL you specified immediately or after a short wait. As before, there are live logs available that allow you to follow the deployment process. Click the triple dot menu in the App Deployment page to view these logs. The process is shown below:
 
-
 [deploy-r-shiny-app.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/0721c203-fc86-4fe6-84e8-e48d8d99e6cf)
-
-
-[deploy_shiny_app.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/2508d66b-8d7d-4830-a532-4838df1e2bf7)
-
 
 # References
 The app.R file was copied from the repository https://github.com/ShinyEd/intro-stats (the file is in the folder https://github.com/ShinyEd/intro-stats/tree/master/CLT_mean).
