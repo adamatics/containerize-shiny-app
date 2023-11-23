@@ -23,20 +23,10 @@ The next step is to add metadata to the container image, making it easier to fin
 
 [add-metadata.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/c9844b90-35b2-4cf3-8a1f-e0a96c5d65fc)
 
-[add-metadata-to-shiny-app-image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/7c481aaa-abaa-4daf-8399-eba5fa381415)
-
-[add-metadata-to-r-shiny-app-image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/da10fd12-726e-4334-93d5-cc02b8fca40b)
-
-[add_metadata_for_shiny_image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/f7134519-4ef9-4075-922a-3eb7969e12ad)
-
 ## Deploy
 Once the metadata publishing process is complete, an action to deploy the container image as an app will be available in the triple dot menu. The status indicator square at the top of the logs window will turn green when the publishing process has finished. You can then click the "Deploy app" action and fill out the fields in the dialog box. The next step is to click the "Deploy App" button in the dialog box, which will start the deployment process and take you to the App Deployment overview page. The app will be available on the URL you specified immediately or after a short wait. As before, there are live logs available that allow you to follow the deployment process. Click the triple dot menu in the App Deployment page to view these logs. The process is shown below:
 
 [deploy.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/c3d2ea82-b8f3-4329-8d42-5a50603bdaea)
-
-[deploy-shiny-app-image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/377db12e-c154-4405-bc1f-9b92ded3bb35)
-
-[deploy-r-shiny-app.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/0721c203-fc86-4fe6-84e8-e48d8d99e6cf)
 
 # References
 The app.R file was copied from the repository https://github.com/ShinyEd/intro-stats (the file is in the folder https://github.com/ShinyEd/intro-stats/tree/master/CLT_mean).
