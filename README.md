@@ -1,6 +1,8 @@
 # Containerize and deploy Shiny app
 This repository contains a file that define an R Shiny app (`app.R`) and a Containerfile (`containerfile`) that specifies the build steps to build a container image for the R Shiny app.
 
+For the videos to play, view this README.md on GitHub ([https://github.com/adamatics/containerize-shiny-app/](https://github.com/adamatics/containerize-shiny-app/)).
+
 In the following sections, we list the steps required to deploy an R Shiny app as a containerized stand-alone app on [AdaLab](https://adamatics.com/index.php/platform-2/).
 
 ## Build the container image
