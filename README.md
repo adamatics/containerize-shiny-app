@@ -20,13 +20,19 @@ build the container image with the below command:
 ```docker build . -t containerized_shiny:1.0.0 -f containerfile```
 
 The argument `-t containerized_shiny:1.0.0` specifies the name and tag to use for the built container image, 
-and you can specify it as you wish. The only requirement is that a container image with this name does not 
-already exist on your local computer, as this will cause an error, and that the name 
+and you can specify it as you wish. If you do not specify a tag (i.e. the part after the colon), the tag will be set to
+'latest' automatically. If a tag called 'latest' already exists, the existing one will be overwritten by the new 
+container image. The only requirement to the name (the part before the colon following the '-t' ), is that a container 
+image with this name does not 
+already exist in your local Lab, as this will cause an error, and that the name 
 follows the [Open Container Initiative (OCI) naming convention](https://github.com/containers/image/blob/main/docker/reference/regexp.go). The build process will look as shown below if 
 you have built this image before. Otherwise, there will be some more steps in which the various components are 
 downloaded to your Lab.
 
 [build_shiny_app_image.webm](https://github.com/adamatics/containerize-shiny-app/assets/149479200/f843be3d-ea55-4fd4-b55b-873fe248cc67)
+
+### The containerfile
+
 
 ## Add metadata
 Once the image building process is complete, you will have the container image available in your Lab on the 
